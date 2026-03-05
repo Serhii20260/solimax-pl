@@ -1,0 +1,182 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Equipment {
+  id           String   @id @default(cuid())
+  name         String
+  type         String
+  manufacturer String?
+  model        String?
+  description  String?
+  tags         String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  compatibilityAsA Compatibility[] @relation("EquipmentA")
+  compatibilityAsB Compatibility[] @relation("EquipmentB")
+}
+
+model Compatibility {
+  id             String   @id @default(cuid())
+  equipmentAId   String
+  equipmentBId   String
+  conditions     String?
+  notes          String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  equipmentA Equipment @relation("EquipmentA", fields: [equipmentAId], references: [id])
+  equipmentB Equipment @relation("EquipmentB", fields: [equipmentBId], references: [id])
+}
+
+model Constraint {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  appliesTo   String?
+  conditions  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model ScalingRule {
+  id                  String   @id @default(cuid())
+  title               String
+  description         String?
+  conditions          String?
+  minKw               Float?
+  maxKw               Float?
+  inverterRequirement String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model StandardCondition {
+  id          String   @id @default(cuid())
+  key         String   @unique
+  title       String
+  description String?
+  action      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model KnowledgeItem {
+  id           String   @id @default(cuid())
+  language     String   @default("pl")
+  category     String
+  title        String
+  content      String
+  compatibility Json?
+  constraints   Json?
+  updatedAt    DateTime @updatedAt
+}
+
+model ConsultantRule {
+  id        String   @id @default(cuid())
+  name      String
+  type      String
+  language  String?
+  value     String?
+  active    Boolean  @default(true)
+  priority  Int      @default(100)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Lead {
+  id        String   @id @default(cuid())
+  
+  // Required fields
+  name         String
+  phone        String
+  email        String
+  consentRODO  Boolean  @default(false)
+  productType  String   // "pv" | "heat_pump"
+  
+  // Optional fields
+  region       String?
+  consumption  String?  // annual consumption description
+  
+  // Package selection (optional - from package offers or manual input)
+  packageId    String?  // ID of selected package offer
+  packageName  String?  // manual input or auto-filled from package
+  
+  // PV-specific optional
+  pvPower          Float?   // kW
+  batteryCapacity  Float?   // kWh
+  
+  // Heat pump specific optional
+  houseArea        Float?   // m²
+  householdSize    Int?
+  energyClass      String?
+  heatingConsumption String?
+  
+  // Auto fields
+  source    String   // "contact" | "calculator" | "package"
+  meta      String?  // JSON string with calculator/package data
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Package offers for "Pakietowe propozycje" page
+model Package {
+  id               String   @id @default(cuid())
+  
+  // Category & Tier
+  category         String   // "home" | "business" | "heatpumps"
+  tier             String   // "standard" | "premium"
+  
+  // Content
+  title            String
+  shortDescription String
+  fullDescription  String   // markdown or html
+  
+  // Manufacturer info
+  manufacturerName String
+  manufacturerUrl  String   // https link
+  
+  // Media
+  imageUrl         String   // main image
+  datasheetUrl     String?  // optional datasheet PDF
+  
+  // Pricing (text-based, no logic)
+  priceLabel       String?
+  
+  // Technical specs as JSON string
+  specs            String?  // JSON: [{ "key": "...", "value": "..." }]
+  
+  // Flags
+  isActive         Boolean  @default(true)
+  isPromo          Boolean  @default(false)  // for banners / promotions
+  isNew            Boolean  @default(false)  // new product badge
+  
+  // Labels
+  promoLabel       String?  // "Nowość", "Promocja", etc.
+  
+  // Ordering
+  sortOrder        Int      @default(0)
+  
+  // Timestamps
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}

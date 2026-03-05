@@ -1,0 +1,884 @@
+[
+  {
+    "id": "auto",
+    "title": "Moduł PV: definicja i działanie",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.1. Czym jest moduł fotowoltaiczny i jak działa\nModuł fotowoltaiczny to element, który zamienia energię promieniowania słonecznego na\nenergię elektryczną prądu stałego (DC).\nSkłada się z połączonych ze sobą ogniw krzemowych, zabezpieczonych szkłem, folią i ramą\naluminiową.\nDla klienta najważniejsze jest to, że:\nmoduł nie produkuje energii „stałej”, lecz zależnej od:\nnasłonecznienia\ntemperatury\nsposobu montażu\nparametry z karty technicznej są punktami odniesienia, a nie gwarancją pracy w każdych\nwarunkach.",
+    "tags": ["moduł", "DC", "ogniwa krzemowe", "nasłonecznienie", "temperatura"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Technologie ogniw PV 2026",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.2. Technologie ogniw stosowane obecnie (2026)\nNa rynku dominują ogniwa krzemowe monokrystaliczne.\nW praktyce spotyka się trzy główne technologie:\nTOPCon\nNajczęściej stosowana technologia w 2026 roku.\nŁączy dobrą sprawność, rozsądną cenę i stabilną pracę w czasie.\nbardzo dobry wybór dla domów jednorodzinnych\nstandard w instalacjach firmowych i gruntowych\nHJT (HIT)\nTechnologia o bardzo dobrych parametrach temperaturowych.\nszczególnie dobra przy wysokich temperaturach\ndroższa, ale efektywna przy ograniczonej powierzchni dachu\nIBC\nTechnologia premium.\nnajwyższe sprawności\nwysoka cena\nstosowana głównie tam, gdzie liczy się każdy metr kwadratowy",
+    "tags": ["TOPCon", "HJT", "IBC", "monokrystaliczne", "2026"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Budowa modułów: co ma znaczenie",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.3. Budowa modułów – co ma realne znaczenie\nOgniwa half-cut\nWspółczesny standard.\nZmniejszają straty elektryczne i poprawiają pracę modułu przy częściowym zacienieniu.\nModuły bifacial (dwustronne)\nProdukują energię z obu stron.\nstosowane głównie na gruncie, carportach i w agro-PV\ndodatkowy uzysk zależy od jasności podłoża i konstrukcji\nModuły szkło–szkło\nZamiast folii tylnej mają drugą szybę.\nwiększa trwałość\nmniejsza degradacja w czasie\nczęściej wybierane w instalacjach długoterminowych",
+    "tags": ["half-cut", "bifacial", "szkło–szkło", "zacienienie", "trwałość"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Rozmiar ogniw 182 i 210 mm",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.4. Rozmiar ogniw i jego znaczenie\nW 2026 dominują dwa formaty ogniw:\n182 mm – najczęściej w instalacjach dachowych\n210 mm – głównie instalacje gruntowe\nDla klienta ważne:\nwiększe ogniwa = większa moc modułu\nale też wyższe prądy, co wpływa na dobór falownika i okablowania",
+    "tags": ["182 mm", "210 mm", "moc modułu", "prądy", "falownik"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Parametry elektryczne modułu",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.5. Parametry elektryczne – co naprawdę jest ważne\nNajważniejsze parametry modułu:\nmoc znamionowa (Wp)\nnapięcie jałowe (Voc)\nprąd zwarciowy (Isc)\nwspółczynnik temperaturowy\nRóżnice sprawności rzędu 0,2–0,3% między modułami zwykle nie mają znaczenia\npraktycznego.",
+    "tags": ["Wp", "Voc", "Isc", "współczynnik temperaturowy", "sprawność"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "STC a warunki rzeczywiste",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.6. STC i warunki rzeczywiste\nParametry modułów podawane są w warunkach STC (laboratoryjnych).\nW rzeczywistości moduły pracują w innych warunkach.\nDlatego:\nSTC = porównanie produktów\nrzeczywista produkcja energii zależy od klimatu, montażu i wentylacji",
+    "tags": ["STC", "warunki rzeczywiste", "porównanie", "klimat", "wentylacja"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Temperatura a produkcja energii",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.7. Temperatura a produkcja energii\nWraz ze wzrostem temperatury:\nspada napięcie modułu\nspada chwilowa moc\nNowoczesne technologie (TOPCon, HJT) lepiej radzą sobie z wysoką temperaturą, co ma\nznaczenie szczególnie latem.",
+    "tags": ["temperatura", "spadek napięcia", "moc", "TOPCon", "HJT"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Sprawność modułu a uzysk",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.8. Sprawność modułu a uzysk energii\nWyższa sprawność nie zawsze oznacza wyższy uzysk energii w skali roku.\nW praktyce liczy się:\nilość wyprodukowanych kWh\nstabilność pracy\ndegradacja w czasie",
+    "tags": ["sprawność", "uzysk", "kWh", "stabilność", "degradacja"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Degradacja modułów",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.9. Degradacja modułów\nKażdy moduł z czasem traci część swojej mocy.\nNajważniejsze zjawiska:\nLID – spadek mocy na początku eksploatacji\nLeTID – zależny od temperatury i technologii\nDlatego istotne są:\nrealne krzywe degradacji\nwarunki gwarancji wydajności",
+    "tags": ["degradacja", "LID", "LeTID", "gwarancja", "wydajność"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Tolerancja mocy",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.10. Tolerancja mocy\nNowoczesne moduły mają dodatnią tolerancję mocy, co oznacza, że realna moc jest często\nnieco wyższa niż deklarowana.\nDla klienta:\nto niewielka, ale pozytywna różnica\nnie powinna być głównym kryterium wyboru",
+    "tags": ["tolerancja mocy", "realna moc", "deklarowana moc", "kryterium wyboru"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Jakość i producent",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.11. Jakość i wiarygodność producenta\nJakość modułu ocenia się przez:\nparametry techniczne\ncertyfikaty\nhistorię producenta\nwarunki gwarancji\nWygląd zewnętrzny nie jest miarodajnym kryterium jakości.",
+    "tags": ["jakość", "certyfikaty", "gwarancja", "producent", "parametry"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Normy i certyfikaty modułów",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "1.12. Normy i certyfikaty\nKażdy moduł dopuszczony do sprzedaży w UE musi spełniać określone normy\nbezpieczeństwa i jakości.\nDla klienta oznacza to, że moduł:\njest bezpieczny w użytkowaniu\nprzeszedł testy mechaniczne i elektryczne",
+    "tags": ["normy", "certyfikaty", "UE", "bezpieczeństwo", "testy"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie modułów PV",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nModuł fotowoltaiczny to kompromis między ceną, trwałością, technologią i warunkami\nmontażu.\nW 2026 roku kluczowe są:\ntechnologie TOPCon i HJT\nsolidna konstrukcja\nrealny uzysk energii, a nie tylko liczby w karcie katalogowej",
+    "tags": ["podsumowanie", "TOPCon", "HJT", "uzysk energii", "konstrukcja"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Rola falownika w PV",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.1. Rola falownika w instalacji PV\nFalownik (inwerter) to centralny element instalacji fotowoltaicznej, który:\nzamienia prąd stały (DC) z modułów PV na prąd zmienny (AC),\nsynchronizuje instalację z siecią energetyczną,\nnadzoruje bezpieczeństwo pracy systemu,\numożliwia monitoring i sterowanie produkcją energii.\nDla użytkownika końcowego falownik jest „mózgiem” instalacji — od jego jakości i\nkonfiguracji zależy stabilność, bezpieczeństwo i realny uzysk energii.",
+    "tags": ["falownik", "DC", "AC", "monitoring", "bezpieczeństwo"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Typy falowników",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.2. Typy falowników stosowane obecnie\nFalowniki stringowe\nNajczęściej stosowane rozwiązanie w domach i firmach.\njeden falownik obsługuje kilka stringów modułów,\ndobra relacja ceny do funkcjonalności,\nłatwa obsługa i serwis.\nStandard dla większości instalacji dachowych.\n---\nFalowniki hybrydowe\nFalowniki przystosowane do współpracy z magazynem energii.\numożliwiają podłączenie baterii (teraz lub w przyszłości),\npozwalają zwiększyć autokonsumpcję,\nmogą pracować w trybie backup / EPS.\nCzęsty wybór dla domów jednorodzinnych w 2026.\n---\nFalowniki centralne\nStosowane głównie w dużych instalacjach gruntowych.\nwysoka moc jednostkowa,\nuproszczona infrastruktura,\nmniejsza elastyczność przy zacienieniu.\nNie stosowane w domach jednorodzinnych.\n---\nMikrofalowniki\nFalownik przypisany do pojedynczego modułu.\ndobra praca przy silnym zacienieniu,\nmonitoring każdego modułu,\nwyższy koszt i większa liczba elementów na dachu.\nRozwiązanie niszowe — stosowane przy bardzo trudnych dachach.",
+    "tags": ["stringowe", "hybrydowe", "centralne", "mikrofalowniki", "EPS"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "MPPT i znaczenie",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.3. MPPT – dlaczego to ważne\nMPPT (Maximum Power Point Tracker) to układ, który maksymalizuje moc uzyskiwaną z\nmodułów.\nIm więcej niezależnych MPPT:\ntym większa elastyczność projektowa,\nłatwiejsze łączenie różnych połaci dachowych,\nmniejsze straty przy nierównomiernym nasłonecznieniu.\nDla domów:\nstandardem są 2 MPPT\nDla firm:\nczęsto 3–6 MPPT lub więcej",
+    "tags": ["MPPT", "elastyczność", "połacie dachowe", "nasłonecznienie", "stringi"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Zakres napięć i kompatybilność",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.4. Zakres napięć i kompatybilność z modułami\nKażdy falownik ma określony:\nminimalny i maksymalny zakres napięcia DC,\nmaksymalny prąd wejściowy.\nW praktyce oznacza to, że:\nnie każdy falownik pasuje do każdego modułu,\nwiększe moduły (182/210 mm) generują wyższe prądy,\nbłędny dobór może ograniczyć moc instalacji.\nTo jeden z najczęstszych błędów projektowych.",
+    "tags": ["zakres napięć", "prąd wejściowy", "kompatybilność", "błąd projektowy"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Sprawność falownika i oversizing",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.5. Sprawność falownika i praca przy częściowym obciążeniu\nFalowniki mają najwyższą sprawność w określonym zakresie mocy.\nW praktyce:\ninstalacja rzadko pracuje z mocą maksymalną,\nważna jest sprawność przy częściowym obciążeniu,\ndlatego często stosuje się oversizing DC/AC.\nOversizing:\npoprawia uzysk roczny,\nnie szkodzi falownikowi,\njest standardową praktyką w 2026.",
+    "tags": ["sprawność", "częściowe obciążenie", "oversizing", "DC/AC", "uzysk"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Optymalizatory mocy",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.6. Optymalizatory mocy – kiedy mają sens\nOptymalizatory mocy montuje się przy modułach.\nStosuje się je, gdy:\nwystępuje trwałe, lokalne zacienienie,\ndach ma wiele kierunków i kątów,\nwymagany jest monitoring modułowy.\nNie są konieczne, gdy:\ndach jest jednolity,\nbrak istotnych zacienień.\nOptymalizatory nie zwiększają cudownie produkcji, a jedynie ograniczają straty w trudnych\nwarunkach.",
+    "tags": ["optymalizatory", "zacienienie", "monitoring", "straty", "dach"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Monitoring i komunikacja",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "2.7. Monitoring i komunikacja\nNowoczesne falowniki oferują:\nmonitoring produkcji energii,\nhistorię pracy,\npowiadomienia o błędach.\nDla użytkownika:\nmonitoring to narzędzie kontroli, nie tylko „aplikacja do patrzenia”.\nDla firm:\nintegracja z systemami zarządzania energią (EMS),\nanaliza zużycia i autokonsumpcji.",
+    "tags": ["monitoring", "EMS", "powiadomienia", "autokonsumpcja", "analiza"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Wymagania sieciowe i bezpieczeństwo",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "2.8. Wymagania sieciowe i bezpieczeństwo\nFalownik musi spełniać wymagania operatora sieci (OSD):\nautomatyczne odłączenie przy zaniku sieci,\nkontrola mocy biernej,\nograniczanie mocy czynnej,\nochrona przed pracą wyspową (anti-islanding).\nDla użytkownika oznacza to:\nbezpieczną współpracę z siecią,\nzgodność z przepisami,\nbrak ryzyka odłączenia instalacji przez OSD.",
+    "tags": ["OSD", "anti-islanding", "moc bierna", "bezpieczeństwo", "przepisy"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Falownik a magazyn energii",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "2.9. Falownik a magazyn energii\nPrzy planowaniu instalacji coraz częściej uwzględnia się:\nmożliwość późniejszego podłączenia baterii,\ntryby pracy z magazynem,\nfunkcję zasilania awaryjnego.\nW 2026:\nfalownik hybrydowy daje większą elastyczność,\nnawet jeśli magazyn nie jest montowany od razu.",
+    "tags": ["magazyn energii", "falownik hybrydowy", "backup", "EPS", "elastyczność"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie falowników",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nFalownik:\ndecyduje o bezpieczeństwie i stabilności systemu,\nmusi być dopasowany do modułów i warunków montażu,\npowinien odpowiadać realnym potrzebom użytkownika (dom / firma / przyszły magazyn).\nNie istnieje „najlepszy falownik dla wszystkich” — istnieje właściwy dobór do konkretnej\ninstalacji.",
+    "tags": ["podsumowanie", "dobór", "stabilność", "bezpieczeństwo", "potrzeby"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Nachylenie i azymut",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.1. Nachylenie i azymut instalacji\nNachylenie i kierunek ustawienia modułów wpływają na roczny uzysk energii, ale nie\ndecydują o opłacalności instalacji.\noptymalny azymut: południe\nodchylenia wschód / zachód są akceptowalne, szczególnie w domach\nmniejsze nachylenie → lepsza produkcja latem\nwiększe nachylenie → lepsza produkcja zimą\nDla klienta ważne:\ninstalacja PV nie musi być idealnie ustawiona, aby była opłacalna.",
+    "tags": ["azymut", "nachylenie", "uzysk", "południe", "opłacalność"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Zacienienie jako czynnik projektowy",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.2. Zacienienie – kluczowy czynnik projektowy\nZacienienie ma realny wpływ na produkcję energii, szczególnie przy częściowym zasłonięciu\nmodułów.\nŹródła zacienienia:\nkominy\ndrzewa\nsąsiednie budynki\nelementy konstrukcyjne dachu\nW praktyce:\nkrótkotrwałe cienie są mniej groźne\ntrwałe, powtarzalne cienie wymagają zmiany projektu lub optymalizacji",
+    "tags": ["zacienienie", "projekt", "kominy", "drzewa", "budynki"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Ograniczanie strat zacienienia",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.3. Unikanie strat wynikających z zacienienia\nStraty można ograniczyć przez:\nwłaściwe rozmieszczenie modułów\npodział na osobne stringi\nzastosowanie większej liczby MPPT\nw trudnych przypadkach — optymalizatory mocy\nOptymalizacja nie zastępuje dobrego projektu, a jedynie go uzupełnia.",
+    "tags": ["straty", "stringi", "MPPT", "optymalizatory", "projekt"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Układ generatora i powierzchnia",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.4. Układ generatora PV i powierzchnia montażowa\nProjekt uwzględnia:\ndostępne miejsce\nkształt dachu\nprzeszkody techniczne\nnośność konstrukcji\nDla firm i instalacji gruntowych ważne są:\nodstępy między rzędami\nunikanie wzajemnego zacienienia\nefektywne wykorzystanie powierzchni",
+    "tags": ["generator PV", "powierzchnia", "nośność", "odstępy", "zacienienie"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Trackery",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.5. Systemy nadążne (trackery)\nTrackery zwiększają uzysk energii poprzez podążanie za słońcem.\nstosowane głównie w instalacjach gruntowych\nzwiększają uzysk, ale też koszty i złożoność\nnie stosowane w domach jednorodzinnych\nDecyzja o trackerach jest czysto projektowo-ekonomiczna.",
+    "tags": ["trackery", "uzysk", "instalacje gruntowe", "koszty", "złożoność"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Łączenie modułów w stringi",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.6. Łączenie modułów – stringi\nModuły łączy się:\nszeregowo (string)\nrównolegle (kilka stringów)\nZasady:\nmoduły w jednym stringu powinny mieć podobne warunki pracy\nunika się łączenia różnych orientacji w jednym stringu\nBłędy na tym etapie skutkują:\nstratami energii\nniestabilną pracą falownika",
+    "tags": ["stringi", "łączenie", "orientacje", "straty", "falownik"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Niedopasowanie prądowe i napięciowe",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.7. Niedopasowanie prądowe i napięciowe\nNiedopasowanie występuje, gdy:\nmoduły mają różne warunki nasłonecznienia\nużyto różnych typów modułów\nbłędnie dobrano długość stringów\nEfekt:\nnajsłabszy moduł ogranicza cały string\nDlatego projekt zawsze poprzedza dobór sprzętu, nie odwrotnie.",
+    "tags": ["niedopasowanie", "stringi", "nasłonecznienie", "dobór", "projekt"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Dobór przewodów DC i AC",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.8. Dobór przewodów DC i AC\nPrzewody muszą być dobrane pod kątem:\nprądu roboczego\ndługości trasy\nwarunków środowiskowych\nW praktyce:\nzbyt cienkie przewody → straty i nagrzewanie\nzbyt grube → niepotrzebne koszty\nDobór kabli to bezpieczeństwo + sprawność, nie oszczędność.",
+    "tags": ["przewody", "DC", "AC", "straty", "bezpieczeństwo"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Spadki napięć",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.9. Spadki napięć\nKażdy przewód powoduje spadek napięcia.\nZbyt duże spadki:\nobniżają produkcję energii\nmogą powodować błędy falownika\nDlatego:\nspadki napięć są kontrolowane już na etapie projektu\nszczególnie ważne przy długich trasach kablowych",
+    "tags": ["spadki napięć", "falownik", "projekt", "trasy kablowe"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Zabezpieczenia PV",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "3.10. Zabezpieczenia instalacji PV\nInstalacja PV wymaga zabezpieczeń:\npo stronie DC\npo stronie AC\nprzeciwprzepięciowych\nprzeciwporażeniowych\nZabezpieczenia:\nchronią instalację\nchronią użytkowników\nsą wymagane przepisami\nTo nie jest opcja dodatkowa, lecz obowiązkowy element projektu.",
+    "tags": ["zabezpieczenia", "DC", "AC", "przepisy", "bezpieczeństwo"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Uziemienie i połączenia wyrównawcze",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "3.11. Uziemienie i połączenia wyrównawcze\nUziemienie:\nodprowadza przepięcia\nstabilizuje potencjały\npoprawia bezpieczeństwo pożarowe\nWszystkie metalowe elementy instalacji:\npowinny być objęte wspólnym systemem uziemienia",
+    "tags": ["uziemienie", "połączenia wyrównawcze", "bezpieczeństwo", "przepięcia"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Dobór mocy instalacji",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.12. Dobór mocy instalacji\nDobór mocy zależy od:\nzużycia energii\nprofilu zużycia (dzień / noc)\nplanów rozwoju (pompa ciepła, EV)\nW 2026:\nnie projektuje się już instalacji „na styk”\ncoraz częściej uwzględnia się przyszłe potrzeby",
+    "tags": ["dobór mocy", "zużycie", "profil", "pompa ciepła", "EV"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Rodzaje instalacji PV",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.13. Rodzaje instalacji\nOn-grid\npodłączona do sieci\nnajczęstszy wybór\nHybrydowa\nPV + magazyn energii\nwiększa autokonsumpcja\nzabezpieczenie na wypadek zaniku sieci\nOff-grid\ninstalacje autonomiczne\nrozwiązanie niszowe",
+    "tags": ["on-grid", "hybrydowa", "off-grid", "autokonsumpcja", "magazyn"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Bilansowanie międzyfazowe",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "3.14. Bilansowanie międzyfazowe\nW instalacjach trójfazowych:\nprodukcja i zużycie rozkładają się na fazy\nfalownik i licznik wpływają na sposób rozliczeń\nDla użytkownika:\nwłaściwa konfiguracja poprawia wykorzystanie energii.",
+    "tags": ["bilansowanie", "trójfazowe", "licznik", "rozliczenia", "konfiguracja"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Uruchomienie instalacji",
+    "topic": "process",
+    "lang": "ua",
+    "content": "3.15. Uruchomienie instalacji\nPo montażu instalacja:\njest sprawdzana elektrycznie\nkonfigurowana w falowniku\nzgłaszana do operatora sieci\nTo etap, który decyduje o:\nbezpieczeństwie\npoprawnej pracy od pierwszego dnia",
+    "tags": ["uruchomienie", "konfiguracja", "operator sieci", "bezpieczeństwo"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Dokumentacja powykonawcza",
+    "topic": "process",
+    "lang": "ua",
+    "content": "3.16. Dokumentacja powykonawcza\nDokumentacja obejmuje:\nschematy\nparametry\nprotokoły pomiarów\nDla klienta:\nto podstawa gwarancji i serwisu\nczęsto wymagane przez ubezpieczyciela",
+    "tags": ["dokumentacja", "protokoły", "gwarancja", "serwis", "ubezpieczyciel"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie projektowania PV",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nDobry projekt:\nminimalizuje straty\nzwiększa uzysk energii\nzapobiega problemom w przyszłości\nNajczęstszy błąd klientów:\n> „najpierw wybierzmy sprzęt, potem zobaczymy jak to podłączyć”\nW rzeczywistości projekt jest fundamentem całej instalacji.",
+    "tags": ["podsumowanie", "projekt", "uzysk", "straty", "fundament"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Czym jest magazyn energii",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.1. Czym jest magazyn energii i po co się go stosuje\nMagazyn energii w systemie fotowoltaicznym służy do gromadzenia nadwyżek energii\nwyprodukowanej przez instalację PV i wykorzystania ich w innym czasie – najczęściej\nwieczorem, w nocy lub w okresach zwiększonego zapotrzebowania.\nDla użytkownika końcowego oznacza to:\nzwiększenie autokonsumpcji energii,\nmniejsze uzależnienie od oddawania energii do sieci,\nczęściowe uniezależnienie od zmian cen energii,\nw niektórych systemach – możliwość zasilania awaryjnego.\nMagazyn energii nie zwiększa ilości wyprodukowanej energii, lecz poprawia sposób jej\nwykorzystania.",
+    "tags": ["magazyn energii", "autokonsumpcja", "nadwyżki", "backup", "sieć"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Technologie akumulatorów 2026",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.2. Technologie akumulatorów stosowane w 2026 roku\nW 2026 roku standardem rynkowym są magazyny oparte na technologii\nlitowo-żelazowo-fosforanowej (LiFePO₄).\nTa technologia:\ncharakteryzuje się wysoką trwałością (wiele tysięcy cykli),\njest stabilna termicznie i bezpieczniejsza od innych chemii litowych,\ndobrze nadaje się do codziennej pracy w systemach PV.\nInne technologie akumulatorów mają dziś marginalne znaczenie w nowych instalacjach PV\ndla domów i firm.",
+    "tags": ["LiFePO₄", "trwałość", "bezpieczeństwo", "cykle", "PV"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Parametry magazynu energii",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.3. Podstawowe parametry magazynu energii\nPrzy doborze magazynu kluczowe są następujące parametry:\nPojemność nominalna (kWh) – teoretyczna pojemność magazynu\nPojemność użyteczna – realnie dostępna energia\nDOD (Depth of Discharge) – maksymalny stopień rozładowania\nSOC (State of Charge) – aktualny poziom naładowania\nLiczba cykli – przewidywana żywotność magazynu\nDla użytkownika najważniejsza jest pojemność użyteczna, ponieważ to ona decyduje, ile\nenergii faktycznie można wykorzystać.",
+    "tags": ["pojemność", "DOD", "SOC", "cykle", "kWh"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Wpływ temperatury na magazyn",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.4. Wpływ temperatury na pracę magazynu energii\nTemperatura otoczenia wpływa na:\ndostępność pojemności,\nsprawność ładowania i rozładowania,\nżywotność baterii.\nW praktyce:\nzbyt niska temperatura ogranicza możliwość ładowania,\nzbyt wysoka temperatura przyspiesza degradację.\nDlatego magazyny energii:\nmontuje się w pomieszczeniach o stabilnej temperaturze,\nwyposaża się w systemy kontroli i ochrony termicznej.",
+    "tags": ["temperatura", "pojemność", "degradacja", "ochrona termiczna", "ładowanie"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Współpraca falownika z magazynem",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.5. Współpraca falownika z magazynem energii\nMagazyn energii zawsze współpracuje z falownikiem:\nfalownik hybrydowy – najczęstsze rozwiązanie w domach,\nsystem AC-coupling – często w modernizowanych instalacjach,\nsystem DC-coupling – wyższa sprawność, mniej konwersji.\nDobór rozwiązania zależy od:\nistniejącej instalacji,\nplanowanego sposobu użytkowania,\noczekiwań dotyczących zasilania awaryjnego.",
+    "tags": ["falownik hybrydowy", "AC-coupling", "DC-coupling", "sprawność", "backup"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Tryby pracy magazynu",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.6. Typowe tryby pracy magazynu energii\nW praktyce magazyn może pracować w kilku trybach:\nAutokonsumpcja – maksymalne wykorzystanie własnej energii\nOptymalizacja kosztów – ładowanie i rozładowanie zgodnie z taryfami\nBackup / EPS – zasilanie wybranych obwodów przy zaniku sieci\nNie każdy magazyn oferuje pełne zasilanie całego budynku – zakres backupu zależy od\nprojektu i konfiguracji systemu.",
+    "tags": ["autokonsumpcja", "taryfy", "backup", "EPS", "tryby pracy"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Magazyn energii w domach",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.7. Magazyn energii w domach jednorodzinnych\nW domach jednorodzinnych magazyn energii:\nzwiększa wykorzystanie energii z PV,\nzmniejsza ilość energii oddawanej do sieci,\npoprawia komfort energetyczny użytkownika.\nNajczęstsze powody decyzji o magazynie:\nzmiany systemów rozliczeń,\nrosnące ceny energii,\nplanowane urządzenia o dużym zużyciu (pompa ciepła, EV).",
+    "tags": ["domy jednorodzinne", "autokonsumpcja", "rozliczenia", "ceny energii", "EV"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Magazyn energii w firmach",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.8. Magazyn energii w firmach\nW firmach magazyn energii:\nstabilizuje zużycie energii,\nredukuje szczytowe pobory mocy,\nwspiera zarządzanie energią.\nCzęsto jest elementem szerszego systemu:\nEMS (Energy Management System),\nPV + magazyn + odbiorniki sterowane.\nDecyzja o magazynie w firmie zawsze wymaga analizy profilu zużycia.",
+    "tags": ["firmy", "EMS", "szczytowe pobory", "zarządzanie energią", "profil zużycia"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Integracja z innymi systemami",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "4.9. Integracja magazynu energii z innymi systemami\nMagazyn energii coraz częściej współpracuje z:\npompą ciepła,\nładowarką samochodu elektrycznego,\nsystemem inteligentnego domu.\nCelem jest:\nzużycie energii wtedy, gdy jest dostępna,\nograniczenie poboru energii z sieci.",
+    "tags": ["integracja", "pompa ciepła", "ładowarka EV", "smart home", "sieć"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Bezpieczeństwo i normy magazynów",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "4.10. Bezpieczeństwo i normy\nNowoczesne magazyny energii:\nposiadają systemy BMS,\nsą zabezpieczone przed przeładowaniem i przegrzaniem,\nspełniają wymagania bezpieczeństwa obowiązujące w UE.\nDla użytkownika oznacza to:\nbezpieczną eksploatację,\nmożliwość legalnego montażu i ubezpieczenia instalacji.",
+    "tags": ["BMS", "bezpieczeństwo", "UE", "montaż", "ubezpieczenie"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie magazynów energii",
+    "topic": "bess",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nMagazyn energii:\nnie jest obowiązkowy, ale coraz częściej uzasadniony,\npoprawia sposób wykorzystania energii z PV,\nzwiększa elastyczność i niezależność energetyczną.\nKluczowe jest, aby magazyn:\nbył dobrany do realnych potrzeb,\nbył poprawnie zintegrowany z instalacją PV,\nnie był traktowany jako „magiczne rozwiązanie”, lecz element systemu.",
+    "tags": ["podsumowanie", "magazyn energii", "elastyczność", "integracja", "PV"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Rola konstrukcji montażowej",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.1. Rola konstrukcji montażowej w instalacji PV\nKonstrukcja wsporcza odpowiada za:\nbezpieczne przeniesienie obciążeń (wiatr, śnieg) na budynek lub grunt,\nprawidłowe ustawienie modułów,\ntrwałość instalacji przez wiele lat.\nDla użytkownika oznacza to, że nawet najlepsze moduły i falownik nie spełnią swojej roli,\njeśli konstrukcja montażowa będzie źle dobrana lub zamontowana.",
+    "tags": ["konstrukcja", "obciążenia", "wiatr", "śnieg", "trwałość"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Systemy montażowe na dachach skośnych",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.2. Systemy montażowe na dachach skośnych\nNa dachach skośnych stosuje się systemy:\ndopasowane do rodzaju pokrycia (dachówka, blacha, blachodachówka),\nmocowane do elementów nośnych dachu (krokwie, płatwie).\nKluczowe aspekty:\nszczelność pokrycia po montażu,\nzachowanie odpowiednich odstępów wentylacyjnych,\nrównomierne rozłożenie obciążeń.\nDla domów jednorodzinnych to najczęstszy typ instalacji.",
+    "tags": ["dach skośny", "pokrycie", "krokwie", "wentylacja", "obciążenia"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Systemy montażowe na dachach płaskich",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.3. Systemy montażowe na dachach płaskich\nNa dachach płaskich stosuje się konstrukcje:\nbalastowe,\nbalastowo-kotwione,\nrzadziej – wyłącznie kotwione.\nNajważniejsze kwestie:\nochrona hydroizolacji,\nwłaściwe obciążenie balastem,\nodporność na ssanie wiatru.\nDla klienta istotne jest, że:\ndach płaski nie zawsze wymaga ingerencji w poszycie,\nprojekt konstrukcji musi uwzględniać nośność dachu.",
+    "tags": ["dach płaski", "balast", "kotwienie", "hydroizolacja", "wiatr"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Systemy montażowe na gruncie",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.4. Systemy montażowe na gruncie\nInstalacje gruntowe stosuje się:\nprzy dużych mocach,\ngdy brak miejsca na dachu,\nw instalacjach firmowych i agro-PV.\nKonstrukcje gruntowe:\nsą osadzane na palach lub fundamentach,\numożliwiają optymalny kąt nachylenia,\nczęsto współpracują z modułami bifacial.\nTo rozwiązanie bardziej elastyczne projektowo, ale wymagające przygotowania terenu.",
+    "tags": ["grunt", "agro-PV", "pale", "fundamenty", "bifacial"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Rozplanowanie modułów i odstępy",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.5. Rozplanowanie modułów i odstępy\nPrawidłowe rozplanowanie modułów uwzględnia:\nodstępy od krawędzi dachu,\nprzeszkody techniczne,\nwzajemne zacienienie rzędów,\ndostęp serwisowy.\nZbyt gęsty montaż:\nzwiększa ryzyko strat energii,\nutrudnia serwis,\nmoże powodować problemy z wentylacją modułów.",
+    "tags": ["rozplanowanie", "odstępy", "zacienienie", "serwis", "wentylacja"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Obciążenia wiatrem i śniegiem",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "5.6. Obciążenia wiatrem i śniegiem\nKażda konstrukcja PV musi być projektowana z uwzględnieniem:\nlokalnej strefy wiatru,\nstrefy obciążenia śniegiem,\nwysokości budynku i jego położenia.\nDla użytkownika oznacza to:\nbezpieczeństwo instalacji w warunkach ekstremalnych,\nbrak ryzyka uszkodzeń dachu lub konstrukcji.",
+    "tags": ["wiatr", "śnieg", "strefy obciążenia", "bezpieczeństwo", "konstrukcja"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Montaż modułów PV",
+    "topic": "process",
+    "lang": "ua",
+    "content": "5.7. Montaż modułów fotowoltaicznych\nPodczas montażu modułów kluczowe są:\nwłaściwe momenty dokręcania,\nzgodność z zaleceniami producenta,\nbrak naprężeń mechanicznych.\nNieprawidłowy montaż może:\nskrócić żywotność modułu,\nunieważnić gwarancję,\nzwiększyć ryzyko uszkodzeń.",
+    "tags": ["montaż", "moment dokręcania", "zalecenia producenta", "gwarancja", "naprężenia"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Montaż falownika",
+    "topic": "process",
+    "lang": "ua",
+    "content": "5.8. Montaż falownika\nFalownik montuje się:\nw miejscu suchym i wentylowanym,\nz dostępem serwisowym,\nzgodnie z zaleceniami producenta.\nDla użytkownika ważne jest:\nłatwy dostęp do urządzenia,\nochrona przed przegrzewaniem,\nstabilna praca przez cały rok.",
+    "tags": ["montaż falownika", "wentylacja", "serwis", "przegrzewanie", "stabilność"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Trasy kablowe i estetyka",
+    "topic": "process",
+    "lang": "ua",
+    "content": "5.9. Trasy kablowe i estetyka wykonania\nProwadzenie kabli wpływa na:\nbezpieczeństwo,\ntrwałość instalacji,\nestetykę.\nDobre praktyki:\nunikanie ostrych krawędzi,\nochrona przed UV,\nuporządkowane prowadzenie tras.\nEstetyka ma szczególne znaczenie w domach jednorodzinnych.",
+    "tags": ["trasy kablowe", "UV", "bezpieczeństwo", "estetyka", "praktyki"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Normy i certyfikaty konstrukcji",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "5.10. Normy i certyfikaty konstrukcji\nSystemy montażowe powinny:\nposiadać odpowiednie certyfikaty,\nbyć projektowane zgodnie z obowiązującymi normami,\nmieć potwierdzoną nośność i trwałość.\nDla klienta oznacza to:\nlegalny montaż,\nmożliwość ubezpieczenia instalacji,\nspokój na wiele lat użytkowania.",
+    "tags": ["certyfikaty", "normy", "nośność", "legalny montaż", "ubezpieczenie"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie konstrukcji i montażu",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nKonstrukcja i montaż:\ndecydują o bezpieczeństwie i trwałości instalacji,\nmają bezpośredni wpływ na uzysk energii,\nsą równie ważne jak moduły i falownik.\nNajczęstsze błędne przekonanie:\n> „To tylko stelaż, nie ma większego znaczenia.”\nW rzeczywistości to fundament całej instalacji PV.",
+    "tags": ["podsumowanie", "konstrukcja", "montaż", "uzysk", "bezpieczeństwo"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Zacienienie w trakcie eksploatacji",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.1. Zacienienie w trakcie eksploatacji\nZacienienie to jeden z najczęstszych problemów eksploatacyjnych instalacji PV.\nMoże pojawić się:\nz czasem (rosnące drzewa),\npo zmianach otoczenia (nowe budynki, elementy dachu),\nsezonowo (niskie słońce zimą).\nSkutki:\nspadek produkcji energii,\nnierównomierna praca modułów,\nw dłuższym czasie – ryzyko lokalnych przegrzań.\nZacienienie nie zawsze oznacza awarię, ale zawsze oznacza stratę uzysku.",
+    "tags": ["zacienienie", "eksploatacja", "spadek produkcji", "przegrzania", "uzysk"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Diody bypass",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.2. Rola diod bypass\nKażdy moduł PV wyposażony jest w diody bypass, które:\nograniczają straty przy częściowym zacienieniu,\nchronią ogniwa przed przeciążeniem.\nDiody bypass:\nnie eliminują strat,\njedynie zmniejszają ich negatywne skutki.\nDlatego diody są zabezpieczeniem, a nie rozwiązaniem problemu złego projektu.",
+    "tags": ["diody bypass", "zacienienie", "straty", "ochrona ogniw", "projekt"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Skutki energetyczne zacienienia",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.3. Skutki energetyczne zacienienia\nZacienienie jednego modułu może:\nograniczyć pracę całego stringu,\nobniżyć napięcie i moc instalacji,\npowodować niestabilną pracę falownika.\nW praktyce:\nkrótkotrwałe cienie → niewielki wpływ,\ndługotrwałe, powtarzalne cienie → realne straty energii.",
+    "tags": ["zacienienie", "string", "napięcie", "moc", "falownik"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Hot-spoty",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.4. Hot-spoty (gorące punkty)\nHot-spot to lokalne przegrzanie fragmentu modułu, spowodowane m.in.:\ntrwałym zacienieniem,\nuszkodzeniem ogniwa,\nzabrudzeniem.\nSkutki hot-spotów:\nprzyspieszona degradacja,\nryzyko uszkodzenia modułu,\nw skrajnych przypadkach zagrożenie bezpieczeństwa.\nDlatego monitoring i okresowe kontrole są istotne.",
+    "tags": ["hot-spoty", "degradacja", "zabrudzenie", "bezpieczeństwo", "monitoring"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "PID",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.5. PID – degradacja indukowana napięciem\nPID (Potential Induced Degradation) to zjawisko:\nstopniowego spadku mocy modułów,\nwynikające z wysokich napięć i warunków środowiskowych.\nW nowoczesnych instalacjach:\nryzyko PID jest ograniczane przez odpowiedni dobór sprzętu,\nprawidłowe uziemienie i konfigurację falownika.\nPID to problem systemowy, a nie „wada jednego modułu”.",
+    "tags": ["PID", "degradacja", "napięcie", "uziemienie", "falownik"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Prądy upływu i pętle indukcyjne",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.6. Prądy upływu i pętle indukcyjne\nNieprawidłowe prowadzenie przewodów może powodować:\nprądy upływu,\nzakłócenia pracy falownika,\nniepotrzebne wyłączenia zabezpieczeń.\nDlatego w praktyce:\nprzewody DC prowadzi się możliwie blisko siebie,\nunika się dużych pętli indukcyjnych,\ndba się o spójny system uziemienia.",
+    "tags": ["prądy upływu", "pętle indukcyjne", "przewody DC", "uziemienie", "falownik"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Zwarcia doziemne",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.7. Zwarcia doziemne generatora PV\nZwarcie doziemne może być skutkiem:\nuszkodzenia izolacji,\nbłędów montażowych,\ndegradacji przewodów.\nNowoczesne falowniki:\nwykrywają zwarcia doziemne,\nautomatycznie wyłączają instalację.\nDla użytkownika oznacza to bezpieczeństwo, ale także konieczność szybkiej reakcji\nserwisowej.",
+    "tags": ["zwarcia doziemne", "izolacja", "falownik", "bezpieczeństwo", "serwis"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Parametry sieciowe: moc czynna i bierna",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.8. Parametry sieciowe – moc czynna i bierna\nFalownik pracuje w sieci elektroenergetycznej i:\noddaje moc czynną,\nmoże regulować moc bierną.\nNieprawidłowe ustawienia mogą prowadzić do:\nwzrostu napięcia w punkcie przyłączenia,\nograniczania mocy instalacji,\nczasowych wyłączeń.\nTo zjawiska zależne od sieci, nie od „złej jakości” instalacji.",
+    "tags": ["moc czynna", "moc bierna", "napięcie", "sieć", "falownik"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Wzrost napięcia w punkcie przyłączenia",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "6.9. Wzrost napięcia w miejscu przyłączenia\nWysokie napięcie w sieci:\njest częstym problemem w obszarach z dużą liczbą instalacji PV,\nmoże powodować automatyczne ograniczanie produkcji.\nDla użytkownika ważne jest zrozumienie, że:\ninstalacja działa poprawnie,\nograniczenia wynikają z warunków sieciowych.",
+    "tags": ["wzrost napięcia", "sieć", "ograniczenia", "produkcja", "PV"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Utrzymanie i przeglądy",
+    "topic": "process",
+    "lang": "ua",
+    "content": "6.10. Utrzymanie i przeglądy instalacji PV\nInstalacja PV jest systemem niskoobsługowym, ale nie bezobsługowym.\nZaleca się:\nokresowe przeglądy wizualne,\nkontrolę połączeń,\nanalizę danych z monitoringu.\nDla firm i większych instalacji:\nplanowe przeglądy są standardem.",
+    "tags": ["przeglądy", "monitoring", "utrzymanie", "kontrola połączeń", "serwis"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Termowizja",
+    "topic": "process",
+    "lang": "ua",
+    "content": "6.11. Termowizja jako narzędzie diagnostyczne\nBadanie kamerą termowizyjną pozwala:\nwykryć hot-spoty,\nsprawdzić połączenia elektryczne,\nocenić równomierność pracy modułów.\nTermowizja:\njest narzędziem diagnostycznym,\nnie jest wymagana rutynowo w każdej instalacji domowej,\nma sens przy problemach lub większych systemach.",
+    "tags": ["termowizja", "diagnostyka", "hot-spoty", "połączenia", "moduły"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Mycie instalacji PV",
+    "topic": "process",
+    "lang": "ua",
+    "content": "6.12. Mycie instalacji PV\nZabrudzenia mogą obniżać produkcję energii, szczególnie gdy:\ninstalacja znajduje się w pobliżu dróg, zakładów przemysłowych,\nmoduły mają mały kąt nachylenia.\nW praktyce:\nw wielu instalacjach domowych mycie nie jest konieczne co roku,\ndecyzja o myciu powinna być oparta na danych z produkcji.",
+    "tags": ["mycie", "zabrudzenia", "produkcja", "kąt nachylenia", "dane"],
+    "priority": 3
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie eksploatacji",
+    "topic": "pv",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nProblemy eksploatacyjne:\nnajczęściej wynikają z warunków otoczenia lub sieci,\nrzadko oznaczają „awarię instalacji”,\nczęsto są normalnym elementem pracy systemu PV.\nKluczowe dla użytkownika jest:\nmonitoring,\nwłaściwa interpretacja danych,\ndostęp do serwisu, gdy jest potrzebny.",
+    "tags": ["podsumowanie", "eksploatacja", "monitoring", "serwis", "sieć"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Znaczenie ochrony przeciwpożarowej",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.1. Dlaczego ochrona przeciwpożarowa jest ważna\nInstalacja fotowoltaiczna jest systemem elektrycznym pracującym pod napięciem, dlatego\nmusi być zaprojektowana i wykonana w sposób minimalizujący ryzyko pożaru.\nDla użytkownika końcowego ważne jest zrozumienie, że:\nprawidłowo zaprojektowana instalacja PV nie zwiększa ryzyka pożaru,\nzagrożenia pojawiają się głównie przy błędach projektowych lub montażowych.",
+    "tags": ["PPOŻ", "ryzyko pożaru", "projekt", "montaż", "PV"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Źródła zagrożeń pożarowych",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.2. Źródła potencjalnego zagrożenia pożarowego\nPotencjalne ryzyka w instalacjach PV to:\nniewłaściwe połączenia elektryczne,\nuszkodzone przewody,\nprzegrzewające się złącza,\nbrak odpowiednich zabezpieczeń.\nW nowoczesnych instalacjach ryzyko to jest systemowo ograniczane.",
+    "tags": ["zagrożenia", "połączenia", "przewody", "zabezpieczenia", "PV"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Projektowanie pod kątem PPOŻ",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.3. Projektowanie instalacji PV z uwzględnieniem PPOŻ\nJuż na etapie projektu uwzględnia się:\nsposób prowadzenia przewodów DC,\nminimalizację długości tras kablowych,\nunikanie przejść przez strefy podwyższonego ryzyka,\nwłaściwe rozmieszczenie urządzeń elektrycznych.\nDobrze zaprojektowana instalacja ułatwia działania służb ratowniczych w razie zdarzenia.",
+    "tags": ["projekt", "PPOŻ", "trasy kablowe", "przewody DC", "służby ratownicze"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Trasy kablowe",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.4. Trasy kablowe i ich znaczenie\nPrzewody DC:\nprowadzi się w sposób uporządkowany i możliwie krótki,\nzabezpiecza przed uszkodzeniami mechanicznymi,\nchroni przed promieniowaniem UV.\nPrawidłowe prowadzenie tras kablowych:\nzmniejsza ryzyko przegrzewania,\nogranicza możliwość zwarć i uszkodzeń izolacji.",
+    "tags": ["trasy kablowe", "przewody DC", "UV", "zwarcia", "izolacja"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Wyłączniki PPOŻ",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.5. Wyłączniki przeciwpożarowe (PPOŻ)\nWyłącznik przeciwpożarowy:\numożliwia szybkie odłączenie instalacji PV,\njest wymagany w określonych typach budynków,\nułatwia bezpieczną interwencję służb ratowniczych.\nDla użytkownika:\nwyłącznik PPOŻ nie wpływa na codzienną pracę instalacji,\njest elementem bezpieczeństwa, nie awaryjności.",
+    "tags": ["wyłącznik PPOŻ", "odłączenie", "budynki", "bezpieczeństwo", "PV"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Oznakowanie instalacji PV",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.6. Oznakowanie instalacji PV\nKażda instalacja PV powinna być:\nodpowiednio oznakowana,\nczytelna dla służb ratowniczych i serwisowych.\nOznaczenia informują o:\nobecności instalacji PV,\npunktach odłączenia,\ntrasach kablowych.",
+    "tags": ["oznakowanie", "służby ratownicze", "punkty odłączenia", "trasy kablowe"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Współpraca z instalacją odgromową",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.7. Współpraca z instalacją odgromową\nJeśli budynek posiada instalację odgromową:\nsystem PV musi być z nią skoordynowany,\nzachowuje się odpowiednie odstępy separacyjne,\nstosuje się ochronę przepięciową.\nBrak koordynacji może zwiększyć ryzyko uszkodzeń przy wyładowaniach atmosferycznych.",
+    "tags": ["instalacja odgromowa", "odstępy separacyjne", "ochrona przepięciowa", "PV"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Rola falownika i zabezpieczeń PPOŻ",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.8. Rola falownika i zabezpieczeń w ochronie PPOŻ\nNowoczesne falowniki:\nmonitorują parametry pracy instalacji,\nwykrywają nieprawidłowości,\nw razie potrzeby automatycznie wyłączają system.\nZabezpieczenia elektryczne:\nograniczają skutki zwarć i przeciążeń,\nsą integralną częścią ochrony przeciwpożarowej.",
+    "tags": ["falownik", "zabezpieczenia", "PPOŻ", "zwarcia", "monitoring"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Błędy zwiększające ryzyko pożaru",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.9. Błędy, które zwiększają ryzyko pożaru\nNajczęstsze błędy:\nniewłaściwe złącza DC,\nluźne połączenia,\nbrak odpowiednich zabezpieczeń,\nnieuporządkowane trasy kablowe.\nTo błędy wykonawcze, a nie wada technologii PV.",
+    "tags": ["błędy", "złącza DC", "połączenia", "zabezpieczenia", "trasy kablowe"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Co powinien wiedzieć użytkownik",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "7.10. Co powinien wiedzieć użytkownik instalacji\nUżytkownik powinien:\nznać lokalizację wyłącznika PPOŻ,\nnie ingerować w instalację samodzielnie,\nreagować na komunikaty o błędach.\nRegularna kontrola i monitoring zapobiegają problemom.",
+    "tags": ["użytkownik", "wyłącznik PPOŻ", "monitoring", "kontrola", "błędy"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie ochrony PPOŻ",
+    "topic": "legal",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nOchrona przeciwpożarowa w PV:\nopiera się na dobrym projekcie i jakości wykonania,\nnie wymaga od użytkownika specjalnych działań,\njest standardowym elementem nowoczesnych instalacji.\nNajważniejszy komunikat dla klienta:\n> Instalacja PV jest bezpieczna, jeśli została wykonana zgodnie z zasadami i przepisami.",
+    "tags": ["podsumowanie", "PPOŻ", "projekt", "bezpieczeństwo", "przepisy"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Uzysk energii: znaczenie",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.1. Co oznacza „uzysk energii” w praktyce\nUzysk energii to ilość energii elektrycznej (kWh), jaką instalacja PV produkuje w określonym\nczasie – zwykle w skali roku.\nUzysk zależy od:\nlokalizacji geograficznej,\nnasłonecznienia,\norientacji i nachylenia modułów,\ntemperatury pracy,\nzacienienia,\nsprawności całego systemu.\nDla klienta ważne jest zrozumienie, że:\nuzysk jest wartością statystyczną,\nrzeczywista produkcja może się różnić z roku na rok.",
+    "tags": ["uzysk", "kWh", "nasłonecznienie", "temperatura", "zacienienie"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Źródła danych o nasłonecznieniu",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.2. Źródła danych o nasłonecznieniu i produkcji\nDo szacowania produkcji energii wykorzystuje się:\nwieloletnie dane meteorologiczne,\nmodele promieniowania słonecznego,\nsymulacje komputerowe.\nTakie dane pozwalają:\nrealistycznie oszacować produkcję,\nporównywać różne warianty projektu,\nunikać zawyżonych obietnic.\nRzetelna prognoza nie obiecuje „maksimum”, lecz średnią wartość długoterminową.",
+    "tags": ["dane meteorologiczne", "symulacje", "prognoza", "produkcja", "projekt"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Obliczanie produkcji energii",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.3. Jak oblicza się produkcję energii z instalacji PV\nProdukcję energii oblicza się na podstawie:\nmocy zainstalowanej (kWp),\nlokalnych warunków nasłonecznienia,\nstrat systemowych (kable, falownik, temperatura).\nW praktyce:\ninstalacja 1 kWp produkuje rocznie określony zakres kWh,\nwartość ta różni się regionalnie i projektowo.\nKlient powinien wiedzieć, że dokładność prognozy rośnie wraz z jakością projektu.",
+    "tags": ["kWp", "kWh", "straty systemowe", "falownik", "prognoza"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Autokonsumpcja",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.4. Autokonsumpcja – kluczowy element ekonomiki\nAutokonsumpcja to część energii wyprodukowanej przez PV, która jest zużywana\nbezpośrednio na miejscu.\nIm wyższa autokonsumpcja:\ntym większa oszczędność,\ntym mniejsze znaczenie systemów rozliczeń z siecią.\nAutokonsumpcję zwiększa się przez:\ndopasowanie mocy instalacji,\nmagazyn energii,\ninteligentne sterowanie odbiornikami.",
+    "tags": ["autokonsumpcja", "oszczędność", "rozliczenia", "magazyn energii", "sterowanie"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Systemy rozliczeń z siecią",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.5. Systemy rozliczeń energii z siecią\nEnergia niewykorzystana na bieżąco:\ntrafia do sieci,\njest rozliczana zgodnie z obowiązującym systemem.\nW 2026:\nsystemy rozliczeń nie gwarantują 1:1 zwrotu energii,\nznaczenie autokonsumpcji jest większe niż wcześniej.\nDla klienta oznacza to:\nmniejszą opłacalność „oddawania wszystkiego do sieci”,\nwiększą rolę magazynów energii i zarządzania zużyciem.",
+    "tags": ["rozliczenia", "sieć", "2026", "autokonsumpcja", "magazyn energii"],
+    "priority": 5
+  },
+  {
+    "id": "auto",
+    "title": "Koszty inwestycyjne CAPEX",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.6. Koszty inwestycyjne (CAPEX)\nKoszt instalacji PV obejmuje:\nmoduły fotowoltaiczne,\nfalownik,\nkonstrukcję montażową,\nokablowanie i zabezpieczenia,\nmontaż i dokumentację.\nNa koszt wpływają:\nwielkość instalacji,\nwarunki montażowe,\nwybrane technologie.\nDla klienta ważne jest porównywanie zakresu instalacji, a nie tylko ceny końcowej.",
+    "tags": ["CAPEX", "koszt instalacji", "moduły", "falownik", "montaż"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Koszty eksploatacyjne OPEX",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.7. Koszty eksploatacyjne (OPEX)\nInstalacje PV charakteryzują się niskimi kosztami eksploatacji.\nTypowe koszty:\nprzeglądy okresowe,\newentualny serwis,\nubezpieczenie.\nBrak paliwa i niewielka liczba elementów ruchomych sprawiają, że PV jest systemem\ndługoterminowo stabilnym kosztowo.",
+    "tags": ["OPEX", "przeglądy", "serwis", "ubezpieczenie", "koszty"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Okres zwrotu inwestycji",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.8. Okres zwrotu inwestycji\nOkres zwrotu określa, po jakim czasie:\noszczędności z PV pokryją koszt inwestycji.\nZależy on od:\nkosztu instalacji,\ncen energii,\npoziomu autokonsumpcji,\newentualnego magazynu energii.\nW praktyce:\nokres zwrotu to wskaźnik orientacyjny,\nnie uwzględnia wszystkich czynników długoterminowych.",
+    "tags": ["okres zwrotu", "oszczędności", "ceny energii", "autokonsumpcja", "magazyn"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Wpływ magazynu na ekonomię",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.9. Wpływ magazynu energii na ekonomię\nMagazyn energii:\nzwiększa autokonsumpcję,\nstabilizuje koszty energii,\nwydłuża okres zwrotu, ale poprawia przewidywalność oszczędności.\nDecyzja o magazynie:\nrzadko jest czysto finansowa,\nczęsto wynika z potrzeby niezależności i bezpieczeństwa.",
+    "tags": ["magazyn energii", "autokonsumpcja", "okres zwrotu", "niezależność", "bezpieczeństwo"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Ekonomika: domy vs firmy",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.10. Różnice ekonomiczne: domy vs firmy\nW domach:\nliczy się obniżenie rachunków,\nkomfort i przewidywalność kosztów.\nW firmach:\nznaczenie ma profil zużycia,\nmożliwe są korzyści z redukcji mocy szczytowej,\nPV bywa elementem strategii energetycznej.\nKażdy przypadek wymaga indywidualnej analizy.",
+    "tags": ["domy", "firmy", "profil zużycia", "moc szczytowa", "strategia"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Długoterminowa perspektywa PV",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "8.11. Długoterminowa perspektywa instalacji PV\nInstalacja PV:\ndziała 25–30 lat,\ngeneruje oszczędności przez cały okres eksploatacji,\njest inwestycją infrastrukturalną, a nie krótkoterminowym produktem.\nNajwiększą wartością PV jest:\nstabilność kosztów energii,\nczęściowa niezależność od rynku.",
+    "tags": ["25–30 lat", "oszczędności", "infrastruktura", "stabilność kosztów", "niezależność"],
+    "priority": 4
+  },
+  {
+    "id": "auto",
+    "title": "Podsumowanie ekonomiki PV",
+    "topic": "financing",
+    "lang": "ua",
+    "content": "PODSUMOWANIE DLA KONSULTANTA\nEkonomika PV nie polega na:\n„najkrótszym zwrocie”,\nmaksymalnej mocy instalacji.\nPolega na:\ndopasowaniu systemu do zużycia,\nmaksymalizacji autokonsumpcji,\nrealistycznym podejściu do prognoz.\nKluczowy komunikat dla klienta:\n> Fotowoltaika to narzędzie do kontrolowania kosztów energii w długim okresie.",
+    "tags": ["podsumowanie", "ekonomika", "autokonsumpcja", "prognozy", "koszty energii"],
+    "priority": 5
+  }
+]
