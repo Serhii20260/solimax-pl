@@ -10,6 +10,7 @@ import PompyCiepla from "./pages/PompyCiepla";
 import Finansowanie from "./pages/Finansowanie";
 import Projekty from "./pages/Projekty";
 import Kontakt from "./pages/Kontakt";
+import Card from "./pages/Card";
 
 import Pakiety from "./pages/Pakiety";
 import PakietDetails from "./pages/PakietDetails";
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="projekty" element={<Projekty />} />
         <Route path="kontakt" element={<Kontakt />} />
         <Route path="contact" element={<Kontakt />} />
+        <Route path="card" element={<Card />} />
 
         <Route path="pakiety" element={<Pakiety />} />
         <Route path="pakiety/:slug" element={<PakietDetails />} />
