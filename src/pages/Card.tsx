@@ -1,5 +1,3 @@
-import { ContactRound, Globe, Mail, MapPin, Phone, Send } from "lucide-react";
-
 const company = {
   name: "Solimax Sp. z o.o.",
   description: "Fotowoltaika i pompy ciepła dla domu i firmy",
@@ -18,33 +16,33 @@ const actions = [
   {
     label: "Zadzwoń",
     href: company.phoneHref,
-    icon: Phone,
+    icon: "TEL",
     primary: true,
   },
   {
     label: "Wyślij e-mail",
     href: `mailto:${company.email}`,
-    icon: Mail,
+    icon: "MAIL",
   },
   {
     label: "Otwórz stronę",
     href: company.website,
-    icon: Globe,
+    icon: "WEB",
   },
   {
     label: "Sprawdź lokalizację",
     href: company.mapHref,
-    icon: MapPin,
+    icon: "MAP",
   },
   {
     label: "Zapisz kontakt",
     href: "/solimax.vcf",
-    icon: ContactRound,
+    icon: "VCF",
   },
   {
     label: "Zostaw zapytanie",
     href: "/pl/kontakt",
-    icon: Send,
+    icon: "FORM",
     primary: true,
   },
 ];
@@ -73,7 +71,7 @@ export default function Card() {
             </div>
 
             <div className="grid gap-3">
-              {actions.map(({ label, href, icon: Icon, primary }) => (
+              {actions.map(({ label, href, icon, primary }) => (
                 <a
                   key={label}
                   href={href}
@@ -83,7 +81,9 @@ export default function Card() {
                       : "border border-slate-200 bg-white text-slate-800 hover:bg-slate-50"
                   }`}
                 >
-                  <Icon className="h-5 w-5" aria-hidden="true" />
+                  <span className="min-w-10 text-center text-[0.65rem] font-bold tracking-wide" aria-hidden="true">
+                    {icon}
+                  </span>
                   <span>{label}</span>
                 </a>
               ))}
