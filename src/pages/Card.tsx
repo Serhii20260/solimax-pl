@@ -1,7 +1,8 @@
 import { useState } from "react";
-import logoDark from "../assets/logo-dark.svg";
 
 const cardUrl = "https://solimax.pl/pl/card";
+const logoSrc = "/pl/SOLIMAX_LOGO_DARK.svg";
+const heroSrc = "/pl/home-solutions.png";
 const qrUrl =
   "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fsolimax.pl%2Fpl%2Fcard";
 
@@ -175,16 +176,16 @@ export default function Card() {
       <section className="mx-auto w-full max-w-[430px] overflow-hidden rounded-[28px] border border-white/10 bg-white shadow-2xl shadow-black/50">
         <div className="relative min-h-[265px] overflow-hidden bg-slate-950">
           <img
-            src="/pl/home-solutions.png"
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover opacity-78"
+            src={heroSrc}
+            alt="Fotowoltaika i pompy ciepła Solimax"
+            className="absolute inset-0 h-full w-full object-cover opacity-80"
             loading="eager"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/55 to-black" />
           <div className="relative flex min-h-[265px] flex-col justify-between p-6 text-white">
             <div className="flex items-center justify-between gap-4">
               <div className="rounded-2xl bg-white px-4 py-3 shadow-lg">
-                <img src={logoDark} alt="Solimax" className="h-8 w-auto max-w-[152px]" />
+                <img src={logoSrc} alt="Solimax" className="h-8 w-auto max-w-[152px]" />
               </div>
               <span className="rounded-full border border-yellow-300/50 bg-yellow-300 px-3 py-1 text-xs font-bold uppercase text-black">
                 NFC ready
